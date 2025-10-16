@@ -1,10 +1,19 @@
 
+
+html,
+body {
+padding: 0;
+margin: 0;
+overflow: initial;
+}
+
+
 @font-face {
 	font-family: 'HONOR Sans World Regular';
 	src:url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Regular.woff2') format('woff2'),
 	url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Regular.woff') format('woff');
 	font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 @font-face {
@@ -12,7 +21,7 @@
 	src:url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Medium.woff2') format('woff2'),
 	url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Medium.woff') format('woff');
 	font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 @font-face {
@@ -20,14 +29,7 @@
 	src:url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Demibold.woff2') format('woff2'),
 	url('https://www.honor.com/content/dam/honor/common/font/honorsans/honor-sans-world/HONORSansWorld-Demibold.woff') format('woff');
 	font-style: normal;
-    font-weight:600;
-}
-
-html,
-body {
-padding: 0;
-margin: 0;
-overflow: initial;
+    font-weight:900;
 }
 
 #honorx7d {
